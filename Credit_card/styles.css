@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.card{
+    min-height: 100vh;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-data{
+    padding: 25px;
+    width: 100%;;
+    max-width: 440px;
+    border-radius: 28px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.chip img{
+    width: 60px; 
+    height: 30px;
+
+}
+
+.card-head, .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card-head {
+    margin-bottom: 50px;
+}
+
+.card-mid h4{
+     margin-top: 5px;
+     margin-bottom: 20px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.footer-el{
+     align-self:flex-end;
+}    
+
+.footer-el h4{
+    font-weight: 380;
+    margin-top: 5px;
+}
